@@ -1,0 +1,23 @@
+{
+  "name": "cmac-presentation-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build themed CMAC HTML presentations from Excel, edit them visually, and share them with clients.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "^1.4.7",
+    "exceljs": "^4.4.0",
+    "express": "^5.3.0",
+    "multer": "^2.4.0"
+  }
+}

@@ -1,0 +1,9 @@
+/* Visual editor overlay (only loaded in edit mode) */
+.cm-edit-mode #navbar{display:none}
+.cm-edit-mode #shell{gap:0}
+html.cm-editing [data-eid]{cursor:pointer}
+html.cm-editing.cm-interact [data-eid]{cursor:auto}
+.cm-hover{outline:2px dashed #3d8bfd!important;outline-offset:3px}
+.cm-sel{outline:3px solid #2f6fed!important;outline-offset:3px}
+section.slide.cm-sel{outline-offset:-6px}
+[contenteditable="true"]{outline:3px solid #f3a44a!important;outline-offset:3px;cursor:text!important;caret-color:#f3a44a}
